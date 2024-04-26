@@ -1,5 +1,6 @@
 import streamlit as st
 import nltk
+nltk.download('punkt')
 import pandas as pd
 import numpy as np
 from wordcloud import WordCloud
