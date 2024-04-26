@@ -1,14 +1,13 @@
 import streamlit as st
 import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 import pandas as pd
 import numpy as np
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import re
 from nltk.corpus import stopwords
-
-# Get stopwords (if not already downloaded)
-nltk.download('stopwords')
 
 # list of English stopwords
 stop_words = set(stopwords.words('english'))
