@@ -1,15 +1,13 @@
 import streamlit as st
 import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import re
 import matplotlib.dates as mdates
 from nltk.corpus import stopwords
-
-# Download NLTK resources
-nltk.download('punkt')
-nltk.download('stopwords')
 
 # Custom list of onomatopoeias and ad libs
 custom_stopwords = ['la', 'na', 'oh', 'yeah', 'Ah', 'Eh', 'Oh', 'Uh', 'Ooh', 
