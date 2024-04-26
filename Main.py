@@ -1,10 +1,4 @@
 import streamlit as st
-import nltk
-import pandas as pd
-import numpy as np
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-import re
 
 st.title('DSCI:510 FINAL PROJECT 📊')
 st.subheader('VICTOR ABREU FUERTES UID:7879-2731-50')
