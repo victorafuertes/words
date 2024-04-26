@@ -1,4 +1,4 @@
 streamlit
-NLTK
+nltk
 wordcloud
 
