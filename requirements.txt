@@ -1,2 +1,2 @@
 NLTK
-wordcloud
+WordCloud
