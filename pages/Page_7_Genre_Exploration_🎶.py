@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
+nltk.download('vader_lexicon')
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 def main():
     # Read the CSV file
