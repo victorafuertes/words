@@ -1,2 +1,4 @@
-NLTK
-WordCloud
+streamlit
+nltk
+wordcloud
+
