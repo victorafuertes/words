@@ -7,14 +7,14 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import re
 
-# Function to tokenize and filter out non-alphanumeric tokens
+# TOKENIZE WORDS
 def tokenize_and_filter(text):
     tokens = nltk.word_tokenize(text)
     # Filter out non-alphanumeric tokens
     filtered_tokens = [token for token in tokens if re.match(r'^\w+$', token)]
     return filtered_tokens
 
-# Function to tokenize and separate genres by commas
+# TOKENIZE GENRES
 def tokenize_and_split_genres(genres):
     if pd.isna(genres):  # Handle missing values
         return []
@@ -28,19 +28,14 @@ csv_directory = ('Main_Data.csv')
 
 df = pd.read_csv(csv_directory)
 
-# Apply tokenization and filtering to the "Lyrics" column
 df['Processed Lyrics'] = df['Lyrics'].apply(tokenize_and_filter)
 
-# Count the tokens in each row for lyrics
 df['Word Count'] = df['Processed Lyrics'].apply(len)
 
-# Apply tokenization and splitting to the "Genres" column
 df['Processed Genres'] = df['Genres'].apply(tokenize_and_split_genres)
 
-# Count the tokens in each row for genres
 df['Genre Count'] = df['Processed Genres'].apply(len)
 
-# Drop unnecessary columns
 df.drop(columns=['Lyrics', 'Entry #'], inplace=True)
 
 
