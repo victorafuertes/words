@@ -136,6 +136,29 @@ plt.tight_layout()
 # Display the plot
 st.pyplot(plt)
 
+# Calculate the overall average percentage of words and non-words across all years
+overall_avg_words_percentage = percentage_table['% Words'].mean()
+overall_avg_non_words_percentage = percentage_table['% Non-Words'].mean()
+
+# Create labels for the pie chart
+labels = ['Words', 'Non-Words']
+
+# Create values for the pie chart
+sizes = [overall_avg_words_percentage, overall_avg_non_words_percentage]
+
+# Create colors for the pie chart
+colors = ['lightgreen', 'green']
+
+# Plotting the pie chart
+plt.figure(figsize=(8, 8))
+plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
+plt.title('Lyrical Content')
+plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle
+
+# Show plot
+st.pyplot(plt)
+
+
 st.write('Upon further investigation I found something that seemed once again, highly counterintuitive.')
 st.write("In 2006, average percentage of a song's content that could be considered non-words was 5.55 percent. In 2023 that number seems to be only 4.41 percent. This genuinely came as a surprise to me and I essentially have to accept that my assumptions and initial hypothesis were incorrect.")
 st.write("Of course, plenty of factors could have influenced these results; mainly that my results are reflective only of the songs used for this project as well as the timeframe I chose. It also varies seemingly unpredictably by year.") 
