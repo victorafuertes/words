@@ -61,7 +61,7 @@ st.title('ABOUT THE DATASET')
 
 st.header('DATA SOURCES FOR THIS PROJECT')
 
-st.image('BANNER.png', caption='Sources: Billboard (Year-End Charts 2006-2023), Genius (Lyrics) & Spotify (Genres)')
+st.image('pages/BANNER.png', caption='Sources: Billboard (Year-End Charts 2006-2023), Genius (Lyrics) & Spotify (Genres)')
 st.write("DATAFRAME SHAPE:")
 st.write(df.shape)
 st.dataframe(df)
