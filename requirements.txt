@@ -1,6 +1,1 @@
 nltk
-bumpy
-pyplot
-wordcloud 
-matplotlib
-re
