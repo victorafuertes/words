@@ -69,7 +69,7 @@ st.write('Results indicate that for Popular song lyrics, between 2006 and 2023, 
 
 
 st.subheader('SOURCES')
-st.image('BANNER.png', caption='Sources: Billboard (Year-End Charts 2006-2023), Genius (Lyrics) & Spotify (Genres)')
+st.image('pages/BANNER.png', caption='Sources: Billboard (Year-End Charts 2006-2023), Genius (Lyrics) & Spotify (Genres)')
 
 
  
