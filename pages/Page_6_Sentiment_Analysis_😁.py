@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from nltk.corpus import stopwords
 import numpy as np
 import re
 import matplotlib.dates as mdates
-from nltk.corpus import stopwords
 
 # Read the CSV file
 df = pd.read_csv('Main_Data.csv')
