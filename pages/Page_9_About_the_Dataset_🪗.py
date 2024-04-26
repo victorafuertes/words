@@ -23,7 +23,7 @@ def tokenize_and_split_genres(genres):
 #------------------------------------------------------------------------------------------------------------------------------------------------
 # SECTION I - LOADING CSV - TOKENIZING:
 
-csv_directory = ('/users/victorfuertes/desktop/app/Main_Data.csv')
+csv_directory = ('Main_Data.csv')
 
 df = pd.read_csv(csv_directory)
 
