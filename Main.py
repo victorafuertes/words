@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.image('pages/BANNER1.png', caption='')
 st.title('DSCI:510 FINAL PROJECT 📊')
 st.subheader('VICTOR ABREU FUERTES UID:7879-2731-50')
 st.write('')
