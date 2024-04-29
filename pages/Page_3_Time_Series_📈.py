@@ -55,7 +55,7 @@ plt.legend()
 plt.grid(True)
 
 #X AXIS FREQUENCY
-plt.xticks(rotation=45)
+plt.xticks(rotation=25)
 
 plt.tight_layout()
 
