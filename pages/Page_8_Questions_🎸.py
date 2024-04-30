@@ -21,7 +21,7 @@ st.write('')
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 st.write('2) What did you Discover/what were your conclusions (i.e. what were your findings?  Were your original assumptions confirmed, etc.?)')
 st.write('')
-st.write('I learned that Music, speficially lyrics, from "back then" really arent so different from how it is now. I think people tend to look back on the past a lot through the eyes of nostalgia and that may give raise to common misconceptions and assumptions such as "music was less repetitive back then".')
+st.write('I learned that Music, specifically lyrics, from "back then" really arent so different from how it is now. I think people tend to look back on the past a lot through the eyes of nostalgia and that may give rise to common misconceptions and assumptions such as "music was less repetitive back then".')
 st.write('I was confronted with unexpected results that went completely against what I thought I would observe. This of course can partly be attributed to my selection of songs, my sample size, my timeframe ("back then" isnt very specific and I could only access as far back as 2006), etc...')
 st.write('')
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------
