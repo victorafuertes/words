@@ -1,6 +1,6 @@
 streamlit
 
-import nltk
+nltk
 nltk.download('punkt')
 
 wordcloud
