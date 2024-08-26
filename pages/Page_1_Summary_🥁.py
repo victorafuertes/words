@@ -1,6 +1,11 @@
 import streamlit as st
 import nltk
 nltk.download('punkt')
+
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
 import pandas as pd
 import numpy as np
 from wordcloud import WordCloud
