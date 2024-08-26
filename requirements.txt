@@ -1,4 +1,5 @@
 streamlit
+
 nltk
-nltk.download('punkt_tab')
+
 wordcloud
