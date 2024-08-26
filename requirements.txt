@@ -1,6 +1,3 @@
 streamlit
-
 nltk
-punkt
-
 wordcloud
